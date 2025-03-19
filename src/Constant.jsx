@@ -5,7 +5,9 @@ import img from './assets/burger.jpg'
 
 // export const FETCH_MENU_URL =  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&collection=83667" 
 
-export const FETCH_MENU_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&collection=83667"
+// export const FETCH_MENU_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&collection=83667"
+
+export const FETCH_MENU_URL = "http://localhost:5000/api/swiggy";
 
 
 
