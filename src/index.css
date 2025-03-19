@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  transition: all 1s ease-in-out;
+}
+
+.dark {
+  /* background-color: black; */
+  color: white;
+  transition: all 1s ease-in-out;
+}
