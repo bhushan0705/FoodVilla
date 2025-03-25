@@ -1,10 +1,14 @@
 import img from './assets/burger.jpg'
 
 
-export const FETCH_MENU_URL =  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&collection=" 
+// export const FETCH_MENU_URL =  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&collection=" 
+
+export const FETCH_MENU_URL =  "https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&collection=" 
+// export const FETCH_MENU_URL =  "https://api.jsonbin.io/v3/b/67decafe8960c979a576687a#" ;
+
 
 export const product = [
-
+  // 🍔 Fast Food
   { id: 1, name: "Burger", price: 100, quantity: 10, image: img, category: "Fast Food" },
   { id: 2, name: "Cheeseburger", price: 160, quantity: 19, image: img, category: "Fast Food" },
   { id: 3, name: "Pizza", price: 200, quantity: 20, image: img, category: "Fast Food" },
