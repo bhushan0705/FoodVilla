@@ -59,7 +59,6 @@ const Body = () => {
   return (
     <div style={{ color: "#fff", minHeight: "100vh", padding: "20px" }}>
       {/* <RestaurantMenu></RestaurantMenu> */}
-      {/* <p className=" bg-red-600" >bhushan</p> */}
       <div
         className="search-container"
         style={{ textAlign: "center", marginBottom: "20px" }}
@@ -95,7 +94,6 @@ const Body = () => {
           ) : (
             // when loading is completed this will render
             <div className="grid grid-cols-3 gap-10 p-4 max-w-8xl mx-auto">
-              {/* <div>{restaurants}Hii</div> */}
               {restaurants.map((element) => (
                 <Link
                   to={"/restaurant/" + element.info.id}
@@ -130,7 +128,6 @@ const Body = () => {
                     </p>
                     <p>Area: {element.info.areaName}</p>
 
-                    {/* taking the props from app */}
                     {element.info.areaName == "Rohini" ? (
                       <p>
                         This restaurant is <b>near</b> you <b>{user.name}</b>{" "}

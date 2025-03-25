@@ -1,4 +1,3 @@
-// it will go to the RestaurantMenu.jsx
 import React, { useEffect, useState } from "react";
 import { FETCH_MENU_URL } from "../Constant";
 const useRestaurant = (id) => {
@@ -11,7 +10,7 @@ const useRestaurant = (id) => {
       const response = await fetch(FETCH_MENU_URL + id);
 
       const result = await response.json();
-      //finding restaurant by matching ID(copied from chatgpt but i can explain)
+
       const restaurantData =
         result.data?.cards?.[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants?.find(
           (element) => element.info.id === id

@@ -21,36 +21,37 @@ const CartItems = ({ element, id }) => {
     dispatch(incrementQuantity(item));
   }
 
-  <li key={id} className="mb-2">
-    <div className="flex items-center justify-between border-2 m-2 p-2">
-      <img
-        src={`${img_url}${imageId}`}
-        alt={name}
-        className="w-20 h-15 object-cover rounded-lg mb-3"
-      />
-      <p className="font-medium">🧾 {name}</p>
-      <p>💰 Cost: ₹{(costNumber / 2) * element.quantity}</p>
+  return (
+    <li key={id} className="mb-2">
+      <div className="flex items-center justify-between border-2 m-2 p-2">
+        <img
+          src={`${img_url}${imageId}`}
+          alt={name}
+          className="w-20 h-15 object-cover rounded-lg mb-3"
+        />
+        <p className="font-medium">🧾 {name}</p>
+        <p>💰 Cost: ₹{(costNumber / 2) * element.quantity}</p>
 
-      <div className="flex items-center justify-center gap-1.5">
-        <button
-          className="p-4 h-4 w-20 bg-amber-500 flex items-center justify-center cursor-pointer"
-          onClick={() => handleRemoveOne(element)}
-        >
-          -
-        </button>
+        <div className="flex items-center justify-center gap-1.5">
+          <button
+            className="p-4 h-4 w-20 bg-amber-500 flex items-center justify-center cursor-pointer"
+            onClick={() => handleRemoveOne(element)}
+          >
+            -
+          </button>
 
-        <p className="font-semibold text-lg">Qty: {element.quantity || 1}</p>
+          <p className="font-semibold text-lg">Qty: {element.quantity || 1}</p>
 
-        <button
-          onClick={() => handleAddOne(element)}
-          className="p-4 h-4 w-20 bg-amber-500 flex items-center justify-center cursor-pointer"
-          // Quantity increment logic will be added here later
-        >
-          +
-        </button>
+          <button
+            onClick={() => handleAddOne(element)}
+            className="p-4 h-4 w-20 bg-amber-500 flex items-center justify-center cursor-pointer"
+          >
+            +
+          </button>
+        </div>
       </div>
-    </div>
-  </li>;
+    </li>
+  );
 };
 
 export default CartItems;

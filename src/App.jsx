@@ -19,8 +19,6 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Home from "./components/Home";
 import { logout } from "./utils/authSlice";
 
-// import InstMart from './components/InstMart';
-
 // this is lazy loading (this is not a normal import it is a function herde)
 const InstaMart = lazy(() => import("./components/InstMart"));
 const About = lazy(() => import("./components/About"));
@@ -31,16 +29,6 @@ function App() {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
-
-  // const {user} = useContext(UserContext)
-  // const [user, setUser] = useState(
-  //   {
-  //     name:"rahul",
-  //     mail: "rahul@ac.in"
-  //   }
-  // )
-
-  // const [logInUser, setLogInUser] = useState(true);
 
   function handleLogout() {
     dispatch(logout());

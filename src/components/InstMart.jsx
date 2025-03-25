@@ -6,8 +6,6 @@ const Section = ({title, description, isVisible, setIsVisible}) => {
   return (
     <div className="border-2 border-orange-500 p-5 m-3 bg-gray-900">
       <h2 className="text-3xl font-bold">{title}</h2>
-
-      {/* buttons when they show and hide  */}
       {
         isVisible ? (
         <button className="cursor-pointer border-2 border-green-300 px-5 py-3 mt-5 mb-5 rounded-md hover:bg-amber-100 hover:text-black transition-all duration-1500" onClick={()=>setIsVisible(false)} >hide</button>
@@ -18,7 +16,7 @@ const Section = ({title, description, isVisible, setIsVisible}) => {
       }
 
       {
-        isVisible && <p>{description}</p>  // && means only that becomes true
+        isVisible && <p>{description}</p> 
       }
     </div>
   )

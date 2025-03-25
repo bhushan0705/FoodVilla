@@ -38,8 +38,8 @@ const Contact = () => {
           <textarea
             rows="4"
             placeholder="Your Message"
-            value={message}  // Controlled input
-            onChange={(e) => setMessage(e.target.value)}  // Update state
+            value={message}  
+            onChange={(e) => setMessage(e.target.value)} 
             className="p-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-green-400"
           ></textarea>
           <button
