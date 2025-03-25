@@ -1,6 +1,6 @@
 const Shrimmer = () => {
   return (
-    <>
+    <div className="flex justify-center items-center flex-wrap">
       {Array(9)
         .fill("")
         .map((_, index) => (
@@ -18,7 +18,7 @@ const Shrimmer = () => {
             <div className="w-[120px] h-[40px] bg-[#444] animate-pulse rounded-lg"></div>
           </div>
         ))}
-    </>
+    </div>
   );
 };
 

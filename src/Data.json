@@ -1,0 +1,1856 @@
+{
+    "card": {
+      "card": {
+        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+        "header": {
+          "title": "Top restaurant chains in Delhi",
+          "action": {},
+          "headerStyling": {
+            "padding": {
+              "left": 16,
+              "top": 28,
+              "bottom": 18
+            }
+          }
+        },
+        "layout": {
+          "rows": 1,
+          "columns": 20,
+          "horizontalScrollEnabled": true,
+          "itemSpacing": 32,
+          "widgetPadding": {},
+          "containerStyle": {
+            "containerPadding": {
+              "left": 16,
+              "right": 12,
+              "bottom": 12
+            }
+          },
+          "scrollBar": {
+            "scrollThumbColor": "#E46D47",
+            "scrollTrackColor": "#02060C",
+            "width": 54,
+            "height": 4,
+            "scrollStyling": {
+              "padding": {
+                "top": 6,
+                "bottom": 24
+              }
+            }
+          },
+          "widgetTheme": {
+            "defaultMode": {
+              "backgroundColour": "#1B3028",
+              "theme": "THEME_TYPE_DARK"
+            },
+            "darkMode": {
+              "backgroundColour": "#1B3028",
+              "theme": "THEME_TYPE_DARK"
+            }
+          }
+        },
+        "id": "top_brands_for_you",
+        "gridElements": {
+          "infoWithStyle": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+            "restaurants": [
+              {
+                "info": {
+                  "id": "16866",
+                  "name": "Pizza Hut",
+                  "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/ff4610b0-18c6-4353-8437-ac5af51ecfa6_16866.jpg",
+                  "locality": "Sector 3",
+                  "areaName": "Rohini",
+                  "costForTwo": "₹350 for two",
+                  "cuisines": [
+                    "Pizzas"
+                  ],
+                  "avgRating": 4.3,
+                  "parentId": "721",
+                  "avgRatingString": "4.3",
+                  "totalRatingsString": "6.5K+",
+                  "sla": {
+                    "deliveryTime": 24,
+                    "lastMileTravel": 2.1,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "20-25 mins",
+                    "lastMileTravelString": "2.1 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                    "nextCloseTime": "2025-03-22 23:00:00",
+                    "opened": true
+                  },
+                  "badges": {
+                    "imageBadges": [
+                      {
+                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                        "description": "Delivery!"
+                      }
+                    ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                    "entityBadges": {
+                      "imageBased": {
+                        "badgeObject": [
+                          {
+                            "attributes": {
+                              "description": "Delivery!",
+                              "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                            }
+                          }
+                        ]
+                      },
+                      "textBased": {},
+                      "textExtendedBadges": {}
+                    }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                    "header": "FREE ITEM"
+                  },
+                  "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                      "lottie": {},
+                      "video": {}
+                    }
+                  },
+                  "reviewsSummary": {},
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": {},
+                  "externalRatings": {
+                    "aggregatedRating": {
+                      "rating": "--"
+                    }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                },
+                "analytics": {
+                  "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+                },
+                "cta": {
+                  "link": "https://www.swiggy.com/city/delhi/pizza-hut-sector-3-rohini-rest16866",
+                  "type": "WEBLINK"
+                }
+              },
+              {
+                "info": {
+                  "id": "603438",
+                  "name": "Chinese Wok",
+                  "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+                  "locality": "Sector 7",
+                  "areaName": "Rohini",
+                  "costForTwo": "₹250 for two",
+                  "cuisines": [
+                    "Chinese",
+                    "Asian",
+                    "Tibetan",
+                    "Desserts"
+                  ],
+                  "avgRating": 4.3,
+                  "parentId": "61955",
+                  "avgRatingString": "4.3",
+                  "totalRatingsString": "1.5K+",
+                  "sla": {
+                    "deliveryTime": 28,
+                    "lastMileTravel": 2.8,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "25-30 mins",
+                    "lastMileTravelString": "2.8 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                    "nextCloseTime": "2025-03-23 01:00:00",
+                    "opened": true
+                  },
+                  "badges": {
+                    "imageBadges": [
+                      {
+                        "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+                        "description": "Delivery!"
+                      }
+                    ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                    "entityBadges": {
+                      "imageBased": {
+                        "badgeObject": [
+                          {
+                            "attributes": {
+                              "description": "Delivery!",
+                              "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png"
+                            }
+                          }
+                        ]
+                      },
+                      "textBased": {},
+                      "textExtendedBadges": {}
+                    }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                    "header": "66% OFF",
+                    "subHeader": "UPTO ₹126"
+                  },
+                  "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                      "lottie": {},
+                      "video": {}
+                    }
+                  },
+                  "reviewsSummary": {},
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": {},
+                  "externalRatings": {
+                    "aggregatedRating": {
+                      "rating": "--"
+                    }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                },
+                "analytics": {
+                  "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+                },
+                "cta": {
+                  "link": "https://www.swiggy.com/city/delhi/chinese-wok-sector-7-rohini-rest603438",
+                  "type": "WEBLINK"
+                }
+              },
+              {
+                "info": {
+                  "id": "785298",
+                  "name": "Olio - The Wood Fired Pizzeria",
+                  "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/26/332cc1be-3c36-4c05-8748-bc06d50b5d9c_785298.jpg",
+                  "locality": "KHASRA NO. 22",
+                  "areaName": "NIHANKARI SATSANG BHAWAN",
+                  "costForTwo": "₹300 for two",
+                  "cuisines": [
+                    "Pizzas",
+                    "Pastas",
+                    "Italian",
+                    "Fast Food",
+                    "Snacks",
+                    "Beverages",
+                    "Desserts"
+                  ],
+                  "avgRating": 4.1,
+                  "parentId": "11633",
+                  "avgRatingString": "4.1",
+                  "totalRatingsString": "1.7K+",
+                  "sla": {
+                    "deliveryTime": 35,
+                    "lastMileTravel": 1.5,
+                    "serviceability": "SERVICEABLE",
+                    "slaString": "30-35 mins",
+                    "lastMileTravelString": "1.5 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                    "nextCloseTime": "2025-03-23 06:00:00",
+                    "opened": true
+                  },
+                  "badges": {
+                    "imageBadges": [
+                      {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                      },
+                      {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                      }
+                    ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                    "entityBadges": {
+                      "imageBased": {
+                        "badgeObject": [
+                          {
+                            "attributes": {
+                              "description": "bolt!",
+                              "imageId": "bolt/bolt%206.png"
+                            }
+                          },
+                          {
+                            "attributes": {
+                              "description": "Gourmet",
+                              "imageId": "newg.png"
+                            }
+                          }
+                        ]
+                      },
+                      "textBased": {},
+                      "textExtendedBadges": {}
+                    }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                    "header": "66% OFF",
+                    "subHeader": "UPTO ₹126"
+                  },
+                  "differentiatedUi": {
+                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                    "differentiatedUiMediaDetails": {
+                      "lottie": {},
+                      "video": {}
+                    }
+                  },
+                  "reviewsSummary": {},
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": {},
+                  "externalRatings": {
+                    "aggregatedRating": {
+                      "rating": "--"
+                    }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                },
+                "analytics": {
+                  "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+                },
+                "cta": {
+                  "link": "https://www.swiggy.com/city/delhi/olio-the-wood-fired-pizzeria-khasra-no-22-nihankari-satsang-bhawan-rest785298",
+                  "type": "WEBLINK"
+                }
+              }
+            ]
+          }
+        },
+        {
+            "info": {
+            "id": "225317",
+            "name": "La Pino'z Pizza",
+            "cloudinaryImageId": "aizb6uyem2jb1hcrhxac",
+            "locality": "Rohini",
+            "areaName": "New Friends Colony",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+            "Pizzas",
+            "Pastas",
+            "Italian",
+            "Desserts",
+            "Beverages"
+            ],
+            "avgRating": 4.3,
+            "parentId": "4961",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "17K+",
+            "sla": {
+            "deliveryTime": 26,
+            "lastMileTravel": 4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 mins",
+            "lastMileTravelString": "4.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 05:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "40% OFF",
+            "subHeader": "UPTO ₹80"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "4.0",
+            "ratingCount": "264"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/la-pinoz-pizza-rohini-new-friends-colony-rest225317",
+            "type": "WEBLINK"
+            }
+            },
+            "info": {
+            "id": "10392",
+            "name": "Subway",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/fcbc881e-b955-40e6-bc9b-15b51777a36a_10392.JPG",
+            "locality": "Sector 3",
+            "areaName": "Rohini M2K",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+            "sandwich",
+            "Salads",
+            "wrap",
+            "Healthy Food"
+            ],
+            "avgRating": 4.3,
+            "parentId": "2",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "12K+",
+            "sla": {
+            "deliveryTime": 18,
+            "lastMileTravel": 2,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "2.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 04:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "bolt/bolt%206.png",
+            "description": "bolt!"
+            },
+            {
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "bolt!",
+            "imageId": "bolt/bolt%206.png"
+            }
+            },
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹119"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/subway-sector-3-rohini-m2k-rest10392",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "602137",
+            "name": "Big Bowl",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/deff0d02-ca1d-4ef9-9d62-b0cbeabf33d3_602137.JPG",
+            "locality": "Sector 7",
+            "areaName": "Rohini",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+            "Chinese",
+            "Tibetan",
+            "Desserts"
+            ],
+            "avgRating": 4.2,
+            "parentId": "434792",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "520",
+            "sla": {
+            "deliveryTime": 28,
+            "lastMileTravel": 2.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 mins",
+            "lastMileTravelString": "2.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 01:00:00",
+            "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "66% OFF",
+            "subHeader": "UPTO ₹126"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/big-bowl-sector-7-rohini-rest602137",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "498382",
+            "name": "Burger King",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/16936ce1-f81c-460a-8d38-7c056f337b7d_498382.jpg",
+            "locality": "M2K Mall",
+            "areaName": "Rohini",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+            "Burgers",
+            "American"
+            ],
+            "avgRating": 4.5,
+            "parentId": "166",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "5.8K+",
+            "sla": {
+            "deliveryTime": 18,
+            "lastMileTravel": 2,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "2.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 03:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Rxawards/_CATEGORY-Burger.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Burger.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "₹166 OFF",
+            "subHeader": "ABOVE ₹749",
+            "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/burger-king-m2k-mall-rohini-rest498382",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "253731",
+            "name": "McDonald's",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/9c39f0c0-d2cc-4440-a5df-f89127e7fc03_253731.JPG",
+            "locality": "Sector 3",
+            "areaName": "Rohini",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+            "American"
+            ],
+            "avgRating": 4.5,
+            "parentId": "630",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "9.8K+",
+            "sla": {
+            "deliveryTime": 26,
+            "lastMileTravel": 2,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 mins",
+            "lastMileTravelString": "2.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 03:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "bolt/bolt%206.png",
+            "description": "bolt!"
+            },
+            {
+            "imageId": "Rxawards/_CATEGORY-Burger.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "bolt!",
+            "imageId": "bolt/bolt%206.png"
+            }
+            },
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Burger.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "66% OFF",
+            "subHeader": "UPTO ₹126"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/mcdonalds-sector-3-rohini-rest253731",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "26723",
+            "name": "KFC",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/66df51a2-d3d6-4af0-854c-888b99de65d3_26723.JPG",
+            "locality": "Sector 3",
+            "areaName": "Rohini",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+            "Burgers",
+            "Rolls & Wraps",
+            "Fast Food"
+            ],
+            "avgRating": 4.3,
+            "parentId": "547",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "11K+",
+            "sla": {
+            "deliveryTime": 18,
+            "lastMileTravel": 2.2,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "2.2 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 05:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Rxawards/_CATEGORY-Burger.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Burger.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹179"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/kfc-sector-3-rohini-rest26723",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "355344",
+            "name": "Grameen Kulfi",
+            "cloudinaryImageId": "bdav4siaddormnwayhkx",
+            "locality": "Block D PKT8",
+            "areaName": "Rohini",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+            "Ice Cream",
+            "Desserts"
+            ],
+            "avgRating": 4.7,
+            "veg": true,
+            "parentId": "12175",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "758",
+            "sla": {
+            "deliveryTime": 11,
+            "lastMileTravel": 1,
+            "serviceability": "SERVICEABLE",
+            "slaString": "10-15 mins",
+            "lastMileTravelString": "1.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 00:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "bolt/bolt%206.png",
+            "description": "bolt!"
+            },
+            {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "bolt!",
+            "imageId": "bolt/bolt%206.png"
+            }
+            },
+            {
+            "attributes": {
+            "description": "pureveg",
+            "imageId": "v1695133679/badges/Pure_Veg111.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "66% OFF",
+            "subHeader": "UPTO ₹126"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/grameen-kulfi-block-d-pkt8-rohini-rest355344",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "622616",
+            "name": "Domino's Pizza",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/13/937b21f8-01cc-4e2c-95d1-974154a21f9f_622616.JPG",
+            "locality": "3rd Sector",
+            "areaName": "Rohini",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+            "Pizzas",
+            "Italian",
+            "Pastas",
+            "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "2456",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "1.5K+",
+            "sla": {
+            "deliveryTime": 25,
+            "lastMileTravel": 0.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-25 mins",
+            "lastMileTravelString": "0.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 03:59:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "bolt/bolt%206.png",
+            "description": "bolt!"
+            },
+            {
+            "imageId": "Rxawards/_CATEGORY-Pizza.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "bolt!",
+            "imageId": "bolt/bolt%206.png"
+            }
+            },
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Pizza.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹799"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/dominos-pizza-3rd-sector-rohini-rest622616",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "681527",
+            "name": "LeanCrust Pizza- ThinCrust Experts",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/992503ef-db6d-4495-b770-571f29e6bb4e_681527.jpg",
+            "locality": "Sector 7",
+            "areaName": "Rohini",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+            "Pizzas",
+            "Italian",
+            "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "11216",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "536",
+            "sla": {
+            "deliveryTime": 25,
+            "lastMileTravel": 2.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-30 mins",
+            "lastMileTravelString": "2.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 02:00:00",
+            "opened": true
+            },
+            "badges": {
+            "textExtendedBadges": [
+            {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "",
+            "fontColor": "#7E808C",
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available"
+            }
+            }
+            ]
+            }
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹50"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/leancrust-pizza-thincrust-experts-sector-7-rohini-rest681527",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "622117",
+            "name": "MOJO Pizza - 2X Toppings",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/12/23fab823-e3eb-423a-ac92-1af3cf6542bc_622117.jpg",
+            "locality": "Sector 7",
+            "areaName": "Rohini",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+            "Pizzas",
+            "Italian",
+            "Fast Food",
+            "Desserts"
+            ],
+            "avgRating": 4.4,
+            "parentId": "11329",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "926",
+            "sla": {
+            "deliveryTime": 25,
+            "lastMileTravel": 2.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-30 mins",
+            "lastMileTravelString": "2.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 02:00:00",
+            "opened": true
+            },
+            "badges": {
+            "textExtendedBadges": [
+            {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "",
+            "fontColor": "#7E808C",
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available"
+            }
+            }
+            ]
+            }
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹50"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/mojo-pizza-2x-toppings-sector-7-rohini-rest622117",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "336272",
+            "name": "Punjabi Angithi (Vegorama Group)",
+            "cloudinaryImageId": "wynnlcwjqfltykkbuudv",
+            "locality": "Sector 16",
+            "areaName": "Rohini",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+            "North Indian",
+            "Chinese",
+            "Tandoor"
+            ],
+            "avgRating": 4.3,
+            "veg": true,
+            "parentId": "465050",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "32K+",
+            "sla": {
+            "deliveryTime": 33,
+            "lastMileTravel": 5.6,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "5.6 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-22 23:30:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "₹166 OFF",
+            "subHeader": "ABOVE ₹399",
+            "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/punjabi-angithi-vegorama-group-sector-16-rohini-rest336272",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "542245",
+            "name": "Baskin Robbins - Ice Cream Desserts",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/12/f2745f85-0040-41b6-ad02-1169f1de0443_542245.jpg",
+            "locality": "Sector 8",
+            "areaName": "Rohini",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+            "Desserts",
+            "Ice Cream"
+            ],
+            "avgRating": 4.7,
+            "veg": true,
+            "parentId": "5588",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "332",
+            "sla": {
+            "deliveryTime": 18,
+            "lastMileTravel": 2.8,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "2.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-22 23:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Rxawards/_CATEGORY-Ice-creams.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Ice-creams.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "₹66 OFF",
+            "subHeader": "ABOVE ₹249",
+            "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/baskin-robbins-ice-cream-desserts-sector-8-rohini-rest542245",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "444780",
+            "name": "Theobroma",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/6/4d89253d-28b6-4657-8402-8a36460ff8fd_444780.jpg",
+            "locality": "Sector 3",
+            "areaName": "Rohini",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+            "Bakery",
+            "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "1040",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "4.2K+",
+            "sla": {
+            "deliveryTime": 16,
+            "lastMileTravel": 2.2,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "2.2 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 00:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Rxawards/_CATEGORY-Desserts.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Desserts.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹39"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/theobroma-sector-3-rohini-rest444780",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "332199",
+            "name": "Kwality Walls Ice Cream and More",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/decf499f-1408-4f67-9e38-26072b2fe760_332199.JPG",
+            "locality": "Rajapur",
+            "areaName": "Rohini",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+            "Desserts",
+            "Ice Cream",
+            "Ice Cream Cakes"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "582",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "2.6K+",
+            "sla": {
+            "deliveryTime": 19,
+            "lastMileTravel": 3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "3.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 01:15:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "v1695133679/badges/Pure_Veg111.png",
+            "description": "pureveg"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "pureveg",
+            "imageId": "v1695133679/badges/Pure_Veg111.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "₹150 OFF",
+            "subHeader": "ABOVE ₹449",
+            "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/kwality-walls-ice-cream-and-more-rajapur-rohini-rest332199",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "101657",
+            "name": "NIC Ice Creams",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/a5552611-fa88-407d-9b43-e4f00571940a_101657.jpg",
+            "locality": "Block D PKT8",
+            "areaName": "Rohini",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+            "Ice Cream",
+            "Desserts"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "6249",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "13K+",
+            "sla": {
+            "deliveryTime": 11,
+            "lastMileTravel": 1,
+            "serviceability": "SERVICEABLE",
+            "slaString": "10-15 mins",
+            "lastMileTravelString": "1.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 00:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "bolt/bolt%206.png",
+            "description": "bolt!"
+            },
+            {
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Ice%20cream.png",
+            "description": "Delivery!"
+            }
+            ],
+            "textExtendedBadges": [
+            {
+            "iconId": "Ratnesh_Badges/test2.png",
+            "shortDescription": "Perfect ice cream delivery",
+            "fontColor": "#7E808C"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "bolt!",
+            "imageId": "bolt/bolt%206.png"
+            }
+            },
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Ice%20cream.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "",
+            "fontColor": "#7E808C",
+            "iconId": "Ratnesh_Badges/test2.png",
+            "shortDescription": "Perfect ice cream delivery"
+            }
+            }
+            ]
+            }
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "66% OFF",
+            "subHeader": "UPTO ₹126"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/nic-ice-creams-block-d-pkt8-rohini-rest101657",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "15680",
+            "name": "Wow! Momo",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/19/2feb55fa-ec5f-4b7e-abc0-2e27b585eb8b_15680.JPG",
+            "locality": "Prashant Vihar",
+            "areaName": "Prashant Vihar",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+            "Tibetan",
+            "Healthy Food",
+            "Asian",
+            "Chinese",
+            "Snacks",
+            "Continental",
+            "Desserts",
+            "Beverages"
+            ],
+            "avgRating": 4.1,
+            "parentId": "1776",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "10K+",
+            "sla": {
+            "deliveryTime": 32,
+            "lastMileTravel": 5.6,
+            "serviceability": "SERVICEABLE",
+            "slaString": "30-35 mins",
+            "lastMileTravelString": "5.6 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 01:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Rxawards/_CATEGORY-Chinese.png",
+            "description": "Delivery!"
+            },
+            {
+            "imageId": "Rxawards/_CATEGORY-Momos.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Chinese.png"
+            }
+            },
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Rxawards/_CATEGORY-Momos.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹89"
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "4.6",
+            "ratingCount": "253"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/wow-momo-prashant-vihar-rest15680",
+            "type": "WEBLINK"
+            }
+            },
+            {
+            "info": {
+            "id": "850492",
+            "name": "The Belgian Waffle Co.",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/17/6c0fc7e2-57bb-4683-90ef-94c9a42eca2b_850492.JPG",
+            "locality": "Rohini",
+            "areaName": "Unity Mall",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+            "Waffle",
+            "Desserts",
+            "Ice Cream",
+            "Beverages"
+            ],
+            "avgRating": 4.5,
+            "veg": true,
+            "parentId": "2233",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "712",
+            "sla": {
+            "deliveryTime": 23,
+            "lastMileTravel": 2.1,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-25 mins",
+            "lastMileTravelString": "2.1 km",
+            "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+            "nextCloseTime": "2025-03-23 03:00:00",
+            "opened": true
+            },
+            "badges": {
+            "imageBadges": [
+            {
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Waffle.png",
+            "description": "Delivery!"
+            }
+            ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+            "entityBadges": {
+            "imageBased": {
+            "badgeObject": [
+            {
+            "attributes": {
+            "description": "Delivery!",
+            "imageId": "Green%20Dot%20Awards/Best%20In%20Waffle.png"
+            }
+            }
+            ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+            }
+            },
+            "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+            }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+            "aggregatedRating": {
+            "rating": "--"
+            }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+            "context": "seo-data-590c9f51-c2b5-44b0-859e-f12999a2fd53"
+            },
+            "cta": {
+            "link": "https://www.swiggy.com/city/delhi/the-belgian-waffle-co-rohini-unity-mall-rest850492",
+            "type": "WEBLINK"
+            }
+            },
+        },
+        },
+        "theme": "Restaurant_Group_WebView_SEO_PB_Theme",
+        "widgetType": "WIDGET_TYPE_POPULAR_BRANDS",
+        "style": {
+          "width": {
+            "type": "TYPE_RELATIVE",
+            "value": 0.41111112,
+            "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+          },
+          "height": {
+            "type": "TYPE_RELATIVE",
+            "value": 0.7027027,
+            "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+          },
+          "layoutAlignment": "LAYOUT_ALIGNMENT_LEFT"
+        },
+        "collectionId": "84124"
+      }
+    }
+  }

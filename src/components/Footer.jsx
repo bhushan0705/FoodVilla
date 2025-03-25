@@ -3,7 +3,7 @@ import UserContext from '../utils/UserContext'
 
 const Footer = () => {
 
-  let {developer} = useContext(UserContext);
+  const {developer} = useContext(UserContext);
 
   return (
     <div>

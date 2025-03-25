@@ -23,7 +23,7 @@ const RestaurantMenu = () => {
     return <p className="text-center text-red-600 mt-10 dark:text-red-400">Restaurant not found.</p>;
 
   return (
-  <div className="min-h-screen bg-green-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-6">
+  <div className="min-h-screen dark:bg-gray-900 text-gray-800 dark:text-gray-200 p-6">
       {/* Restaurant Info */}
       <div className="max-w-5xl mx-auto mb-10">
         <div className="flex flex-col md:flex-row items-center bg-white dark:bg-gray-800 rounded-lg shadow-lg dark:shadow-gray-700 overflow-hidden border border-gray-300 dark:border-gray-700">
@@ -43,7 +43,7 @@ const RestaurantMenu = () => {
               ⭐ Rating: {restaurant.avgRating}
             </p>
             <p className="mb-4 text-lg text-gray-700 dark:text-gray-400">
-              💰 Cost: ₹{cost}
+              💰 Cost for Two: ₹{cost}
             </p>
             <button
               onClick={() => handleAddItem(restaurant)}
@@ -57,17 +57,17 @@ const RestaurantMenu = () => {
 
       {/* Menu Items */}
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6 border-b border-gray-300 dark:border-gray-700 pb-2 text-blue-700 dark:text-blue-300">
+        <h2 className="text-3xl font-bold mb-6 border-b border-gray-300 pb-2 text-blue-700 dark:text-blue-300">
           Menu Items
         </h2>
         {menuItems.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {menuItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-md dark:shadow-gray-700 p-4 flex flex-col justify-between"
+                className="bg-white border border-gray-300 rounded-lg shadow-md dark:shadow-gray-700 p-4 flex flex-col justify-between"
               >
-                <p className="text-xl font-medium mb-4 text-gray-900 dark:text-gray-100">
+                <p className="text-xl font-medium mb-4 text-gray-900">
                   {item.name}
                 </p>
                 <button
@@ -77,7 +77,7 @@ const RestaurantMenu = () => {
                   Add to Cart
                 </button>
               </div>
-            ))}
+            ))}z
           </div>
         ) : (
           <p className="text-gray-600 dark:text-gray-400">
@@ -90,4 +90,3 @@ const RestaurantMenu = () => {
 };
 
 export default RestaurantMenu;
-

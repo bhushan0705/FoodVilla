@@ -2,10 +2,11 @@
 
 body {
   transition: all 1s ease-in-out;
+  background-color: black;
+  color: white;
 }
 
 .dark {
-  /* background-color: black; */
   color: white;
   transition: all 1s ease-in-out;
 }
