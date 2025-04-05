@@ -25,13 +25,14 @@ const Body = () => {
     setRestaurant,
     setErrorMessage,
   ] = useFetchRestaurants([]);
+
   function handleSearch() {
     if (!search.trim()) {
       setErrorMessage("Please enter valid item ❌");
       setRestaurant(allRestaurants);
       return;
     }
-    // here the ? mark is called optioal chaining
+    // here the ? mark is called optional chaining
     const filteredData = allRestaurants.filter((item) =>
       item?.info?.name?.toLowerCase().includes(search.toLowerCase().trim())
     );
